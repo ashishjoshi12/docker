@@ -1,0 +1,12 @@
+how to launch GUI from container to host ubuntu - 
+
+https://www.geeksforgeeks.org/running-gui-applications-on-docker-in-linux/
+
+xauth list
+copy the output
+ubuntu/unix:0  MIT-MAGIC-COOKIE-1  c91e381b27bed2d8af83d1bb6c418dcb
+-- add 0 after : if its missing
+
+xauth add ubuntu/unix:0  MIT-MAGIC-COOKIE-1  c91e381b27bed2d8af83d1bb6c418dcb
+xauth list
+
