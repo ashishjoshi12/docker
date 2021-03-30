@@ -39,7 +39,7 @@ pipeline {
             sh 'kubectl get pods'
             sh 'kubectl get svc'
             echo 'open  minikube ip and svc port which is 31113 in browser'
-            echo 'deployment completed ........
+            echo 'deployment completed ........'
         }
       }
     }
